@@ -1,0 +1,113 @@
+body {
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: rgba(250, 235, 215, 0.839);
+    margin-top: 7.5%;
+    font-family: 'Montserrat', sans-serif;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; */
+}
+.card {
+    /* display: flex;
+    justify-content: center; */
+    /* border: 2px solid black; */
+    width:150vh;
+    height: 70vh;
+    margin: 0 auto;
+    background-color: rgba(240, 255, 255, 0.756);
+    border-radius: 10px;
+}
+
+.nav{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    /* margin-top: 17%; */
+    margin: 0 auto;
+    width: 70vh;
+    display: flex;
+    justify-content: ce;
+    align-items: center;
+}
+
+ ul li {
+
+    list-style: none;
+    text-decoration: none;
+    margin:0 auto;
+    padding: 75px 19px;
+}
+
+.yellow {
+    background-color:rgba(237, 203, 50, 0.236);
+    padding: 6px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section {
+    height:250px;
+    width:300px;
+    margin-top: 5px;
+    border: .5px solid rgba(200, 204, 201, 0.64);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    
+}
+
+img {
+    display: cover;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height:12vh;
+}
+
+button {
+    color:white;
+    background-color: rgb(255, 102, 0);
+    padding: 13px 40px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.318);
+    border:none;
+    border-radius: 5px;
+}
+
+.one {
+    background-image: url("whitevase.jpg");
+    background-size:cover;
+
+ 
+}
+
+h2 {
+    margin-top: 150px;
+    /* color:white; */
+    text-shadow: 1px 1px 0px white;
+}
+
+span {
+    text-shadow: 1px 1px 0px white;
+}
+
+.two {
+    background-image: url("Hot\ Air\ Balloon.jpg");
+    background-size:cover;
+}
+
+.three {
+    background-image: url("Mountain.jpg");
+    background-size:cover;
+}
